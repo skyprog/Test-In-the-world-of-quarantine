@@ -63,7 +63,6 @@ for (let i = 0; i < pandemicEndMap.length; i++) {
 for (var i = 0; i < pandemicEndMap.length; i++) {
   if (pandemicEndMap[i] == zero) {
     total = total + 1;
-
   } else if (pandemicEndMap[i] == one) {
     total = total + 1;
     infected = infected + 1;

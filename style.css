@@ -1,0 +1,39 @@
+.container{
+    max-width: 1026px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.box-container, .box-container2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.text, .total_num, .infected, .percentage {
+    display: block;
+    font-size: 29px;
+    font-weight: 900;
+    letter-spacing: -1px;
+    margin-top: 24px;
+}
+.green_uninfected-0{
+    width: 46px;
+    height: 48px;
+    margin: 1.5px;
+    background-color: #ceffce;
+    border: 1px solid #d3d3d3;
+}
+.red_infected-1{
+    width: 46px;
+    height: 48px;
+    margin: 1.5px;
+    background-color: #ffcece;
+    border: 1px solid #d3d3d3;
+}
+.blue_ocean-x{
+    width: 46px;
+    height: 48px;
+    margin: 1.5px;
+    background-color: #ceceff;
+    border: 1px solid #d3d3d3;
+}
